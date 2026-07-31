@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/road-runner-clothing/static/css/main.f855e6bc.css",
-    "main.js": "/road-runner-clothing/static/js/main.e5d76186.js",
-    "static/js/453.25a10d36.chunk.js": "/road-runner-clothing/static/js/453.25a10d36.chunk.js",
-    "static/media/logo.svg": "/road-runner-clothing/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "main.css": "/road-runner-clothing/static/css/main.d5d7fb70.css",
+    "main.js": "/road-runner-clothing/static/js/main.bf41e4db.js",
+    "static/media/blacksilkshorts.JPG": "/road-runner-clothing/static/media/blacksilkshorts.5eb08899fa4b03373502.JPG",
+    "static/media/blackshorts.JPG": "/road-runner-clothing/static/media/blackshorts.27bc5d4d8c9cb317eaff.JPG",
+    "static/media/rrsilkshorts.JPG": "/road-runner-clothing/static/media/rrsilkshorts.c49debdeb8cfa15de966.JPG",
+    "static/media/indianshirt.JPG": "/road-runner-clothing/static/media/indianshirt.59502f3f407aa02daad8.JPG",
+    "static/media/blackhandsshirt.JPG": "/road-runner-clothing/static/media/blackhandsshirt.28c593d92986f4fae84c.JPG",
+    "static/media/rrcarshirt.JPG": "/road-runner-clothing/static/media/rrcarshirt.3721c1245f481ba8f8ab.JPG",
+    "static/media/whiteredshirt.JPG": "/road-runner-clothing/static/media/whiteredshirt.d0bb4f0f95de19533522.JPG",
+    "static/media/cvshortsblue1.JPG": "/road-runner-clothing/static/media/cvshortsblue1.e0bda54c2945e03249d5.JPG",
+    "static/media/cvshortsblue2.JPG": "/road-runner-clothing/static/media/cvshortsblue2.51038ccef5c3dbbb8600.JPG",
+    "static/media/tanonblackshorts.JPG": "/road-runner-clothing/static/media/tanonblackshorts.d73abc64958d5d7b907f.JPG",
+    "static/media/pinkonblackshorts.JPG": "/road-runner-clothing/static/media/pinkonblackshorts.0d0473bc3435afd21d59.JPG",
+    "static/media/redonblackshorts.JPG": "/road-runner-clothing/static/media/redonblackshorts.773a78e33544cc4a113e.JPG",
+    "static/media/rrblocklogo.JPG": "/road-runner-clothing/static/media/rrblocklogo.018a6ece5e53d07943c8.JPG",
+    "static/media/rrlogo.JPG": "/road-runner-clothing/static/media/rrlogo.0601d09fb0d7dd4f3755.JPG",
+    "static/media/product-placeholder.svg": "/road-runner-clothing/static/media/product-placeholder.6c06d20375d5ce4a848d4b4f3cb9e284.svg",
     "index.html": "/road-runner-clothing/index.html",
-    "main.f855e6bc.css.map": "/road-runner-clothing/static/css/main.f855e6bc.css.map",
-    "main.e5d76186.js.map": "/road-runner-clothing/static/js/main.e5d76186.js.map",
-    "453.25a10d36.chunk.js.map": "/road-runner-clothing/static/js/453.25a10d36.chunk.js.map"
+    "main.d5d7fb70.css.map": "/road-runner-clothing/static/css/main.d5d7fb70.css.map",
+    "main.bf41e4db.js.map": "/road-runner-clothing/static/js/main.bf41e4db.js.map"
   },
   "entrypoints": [
-    "static/css/main.f855e6bc.css",
-    "static/js/main.e5d76186.js"
+    "static/css/main.d5d7fb70.css",
+    "static/js/main.bf41e4db.js"
   ]
 }
