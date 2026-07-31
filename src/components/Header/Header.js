@@ -1,7 +1,7 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import "./Header.css";
-
+import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
+import './Header.css';
+import croppedlogo from '../../assets/croppedlogo.png';
 function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -12,7 +12,9 @@ function Header() {
   return (
     <header className="site-header">
       <NavLink className="brand" to="/" onClick={closeMenu}>
-        <span className="brand__mark">RR</span>
+        <span className="brand__mark">
+          <img src={croppedlogo} alt="logo" />
+        </span>
         <span className="brand__copy">
           <strong>ROAD RUNNER</strong>
           <small>Keep Moving</small>
@@ -34,7 +36,7 @@ function Header() {
 
       <nav
         id="main-navigation"
-        className={`site-nav ${menuOpen ? "site-nav--open" : ""}`}
+        className={`site-nav ${menuOpen ? 'site-nav--open' : ''}`}
         aria-label="Main navigation"
       >
         <NavLink to="/" end onClick={closeMenu}>
