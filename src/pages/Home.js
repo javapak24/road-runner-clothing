@@ -1,6 +1,6 @@
-import { Link } from "react-router-dom";
-import Hero from "../components/Hero/Hero";
-import ProductGrid from "../components/ProductGrid/ProductGrid";
+import { Link } from 'react-router-dom';
+import Hero from '../components/Hero/Hero';
+import ProductGrid from '../components/ProductGrid/ProductGrid';
 
 function Home() {
   return (
@@ -11,7 +11,7 @@ function Home() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Featured products</p>
-            <h2>BUILT FOR THE RUN.</h2>
+            <h2>BUILT DIFFRENT</h2>
           </div>
 
           <Link className="text-link" to="/collection">
@@ -23,9 +23,9 @@ function Home() {
       </section>
 
       <section className="statement">
-        <p>Basketball culture.</p>
-        <p>Everyday movement.</p>
-        <p>Independent ambition.</p>
+        <p>placeholder</p>
+        <p>placeholder</p>
+        <p>placeholder</p>
       </section>
     </>
   );

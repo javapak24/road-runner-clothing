@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import './Hero.css';
+import kobeGif from '../../assets/kobe-bryant-no-flinch.gif';
 
 function Hero() {
   return (
@@ -8,8 +9,8 @@ function Hero() {
         <p className="eyebrow">placeholder content · javapak</p>
 
         <h1>
-          ROAD RUNNER
-          <span>ROAD RUNNER.</span>
+          TO BE BALLIN
+          <span>YOU GOT TO B-ALL-IN</span>
         </h1>
 
         <p className="hero__description">Road Runner ....</p>
@@ -26,9 +27,12 @@ function Hero() {
       </div>
 
       <div className="hero__graphic" aria-hidden="true">
-        <span className="hero__number">24</span>
+        {/* <span className="hero__number">24</span>
         <span className="court-circle court-circle--small"></span>
-        <span className="court-circle court-circle--large"></span>
+        <span className="court-circle court-circle--large"></span> */}
+        <div className="hero__gif">
+          <img src={kobeGif} alt="Kobe Bryant no flinch" />
+        </div>
         <p>ROAD RUNNER</p>
       </div>
     </section>

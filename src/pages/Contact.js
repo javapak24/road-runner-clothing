@@ -7,10 +7,7 @@ function Contact() {
       </div>
 
       <div className="contact-page__content">
-        <p>
-          Replace the example handles and contact information below before
-          publishing the website.
-        </p>
+        <p>Payment Types</p>
 
         <div className="contact-grid">
           <a href="mailto:orders@example.com">
