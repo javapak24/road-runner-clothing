@@ -1,70 +1,144 @@
-# Getting Started with Create React App
+# Road Runner Clothing
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A responsive React website for the Road Runner clothing brand.
 
-## Available Scripts
+## Stack
 
-In the project directory, you can run:
+- React
+- Create React App / react-scripts
+- React Router with HashRouter
+- Plain CSS
+- GitHub Pages
+- gh-pages
 
-### `npm start`
+## Installation order in VS Code
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Option A: Use this completed project
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Extract the ZIP.
+2. Open the project folder in VS Code.
+3. Open **Terminal > New Terminal**.
+4. Run:
 
-### `npm test`
+```bash
+npm install
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Start the development server:
 
-### `npm run build`
+```bash
+npm start
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Option B: Recreate it manually
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+npx create-react-app road-runner-clothing
+cd road-runner-clothing
+npm install react-router-dom
+npm install --save-dev gh-pages
+npm start
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Product mapping
 
-### `npm run eject`
+Products are stored in:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```text
+src/data/products.js
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+The product grid uses:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```jsx
+products.map((product) => <ProductCard key={product.id} product={product} />);
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+This means you can create another card by adding another product object.
+You do not need to manually write another ProductCard in JSX.
 
-## Learn More
+## Replacing product images
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+1. Add an image to `src/assets`.
+2. Import it in `src/data/products.js`:
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```js
+import fastBreakTee from "../assets/fast-break-tee.jpg";
+```
 
-### Code Splitting
+3. Change the product's image value:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```js
+image: fastBreakTee;
+```
 
-### Analyzing the Bundle Size
+Use compressed WebP or JPEG images when possible.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+## Update contact and payment details
 
-### Making a Progressive Web App
+Edit:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```text
+src/pages/Contact.js
+```
 
-### Advanced Configuration
+Replace the example email, Instagram handle, Venmo handle, Cash App handle,
+and destination links.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Always tell customers to confirm availability and totals before paying.
 
-### Deployment
+## GitHub Pages setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+### 1. Update package.json
 
-### `npm run build` fails to minify
+Replace this:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```json
+"homepage": "https://YOUR-GITHUB-USERNAME.github.io/road-runner-clothing"
+```
+
+with your actual GitHub username and repository name.
+
+### 2. Create and push the repository
+
+```bash
+git init
+git add .
+git commit -m "Build Road Runner clothing website"
+git branch -M main
+cc
+git push -u origin main
+```
+
+### 3. Deploy
+
+```bash
+npm run deploy
+```
+
+### 4. GitHub settings
+
+Open the repository on GitHub:
+
+1. Go to **Settings**.
+2. Open **Pages**.
+3. Confirm the publishing branch is `gh-pages`.
+
+Your URL should look like:
+
+```text
+https://YOUR-GITHUB-USERNAME.github.io/road-runner-clothing
+```
+
+## Responsive design
+
+The site includes breakpoints for:
+
+- Large desktop screens
+- Laptops
+- Tablets
+- Large phones
+- Small phones
+
+The navigation becomes a mobile menu. Product cards change from three columns
+to two columns and then one column.
