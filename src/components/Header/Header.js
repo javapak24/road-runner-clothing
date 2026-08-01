@@ -17,7 +17,7 @@ function Header() {
         </span>
         <span className="brand__copy">
           <strong>ROAD RUNNER</strong>
-          <small>Keep Moving</small>
+          <small>Keep it Moving</small>
         </span>
       </NavLink>
 
