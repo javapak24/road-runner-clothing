@@ -57,7 +57,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: medicinewheelshorts,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
 
@@ -70,7 +70,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: ceoshorts,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
 
@@ -83,7 +83,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: redonblackshorts,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
 
@@ -109,7 +109,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: tanonblackshorts,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
 
@@ -122,7 +122,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: nativequeen,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shirt for work, travel, and everyday wear.',
   },
   {
@@ -134,7 +134,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: cvshortsblue1,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
 
@@ -147,7 +147,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: cvshortsblue2,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
   {
@@ -159,7 +159,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: tribalchief,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shirt for work, travel, and everyday wear.',
   },
 
@@ -172,7 +172,7 @@ const products = [
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: cvshirt,
     featured: false,
-    status: 'Coming Soon',
+    status: 'Available',
     description: 'High Quality Shirt for work, travel, and everyday wear.',
   },
   {
@@ -183,8 +183,8 @@ const products = [
     price: 60,
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: gtashirt,
-    featured: true,
-    status: 'Coming Soon',
+    featured: false,
+    status: 'Available',
     description: 'High Quality Shirt for work, travel, and everyday wear.',
   },
   {
@@ -195,8 +195,8 @@ const products = [
     price: 60,
     sizes: ['S', 'M', 'L', 'XL', '2XL'],
     image: shpeeblockshorts,
-    featured: true,
-    status: 'Coming Soon',
+    featured: false,
+    status: 'Available',
     description: 'High Quality Shorts for work, travel, and everyday wear.',
   },
 ];

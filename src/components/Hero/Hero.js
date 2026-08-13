@@ -6,11 +6,13 @@ function Hero() {
   return (
     <section className="hero">
       <div className="hero__content">
-        <p className="eyebrow">placeholder content · javapak</p>
+        <p className="eyebrow">Road Runner · Established 1996</p>
 
         <h1>
-          TO BE BALLIN
-          <span>YOU GOT TO B-ALL-IN</span>
+          TO &nbsp;BE &nbsp;BALLIN
+          <span>
+            YOU <br></br>GOT TO<br></br>B - &nbsp;ALL - &nbsp;IN
+          </span>
         </h1>
 
         <p className="hero__description">Road Runner ....</p>

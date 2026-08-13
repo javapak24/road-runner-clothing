@@ -15,19 +15,27 @@ function Contact() {
             orders@example.com
           </a>
 
-          <a href="https://instagram.com/" target="_blank" rel="noreferrer">
+          <a
+            href="https://www.instagram.com/callmestevevo"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>Instagram</span>
-            @roadrunner
+            @callmestevevo
           </a>
 
-          <a href="https://venmo.com/" target="_blank" rel="noreferrer">
+          {/* <a href="https://venmo.com/" target="_blank" rel="noreferrer">
             <span>Venmo</span>
             @RoadRunner
-          </a>
+          </a> */}
 
-          <a href="https://cash.app/" target="_blank" rel="noreferrer">
+          <a
+            href="https://cash.app/$callmesteveoreno"
+            target="_blank"
+            rel="noreferrer"
+          >
             <span>Cash App</span>
-            $RoadRunner
+            $callmesteveoreno
           </a>
         </div>
 

@@ -11,7 +11,7 @@ function Home() {
         <div className="section-heading">
           <div>
             <p className="eyebrow">Featured products</p>
-            <h2>BUILT DIFFRENT</h2>
+            <h2>BUILT DIFFERENT</h2>
           </div>
 
           <Link className="text-link" to="/collection">
@@ -23,9 +23,9 @@ function Home() {
       </section>
 
       <section className="statement">
-        <p>placeholder</p>
-        <p>placeholder</p>
-        <p>placeholder</p>
+        <p>GOAT</p>
+        <p>GOAT</p>
+        <p>GOAT</p>
       </section>
     </>
   );
