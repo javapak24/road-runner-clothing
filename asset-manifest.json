@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/road-runner-clothing/static/css/main.d5d7fb70.css",
-    "main.js": "/road-runner-clothing/static/js/main.c53f0e71.js",
+    "main.css": "/road-runner-clothing/static/css/main.77965d69.css",
+    "main.js": "/road-runner-clothing/static/js/main.d1a98394.js",
     "static/media/kobe-bryant-no-flinch.gif": "/road-runner-clothing/static/media/kobe-bryant-no-flinch.8d6b1cedefe0a7d793a8.gif",
     "static/media/blacksilkshorts.JPG": "/road-runner-clothing/static/media/blacksilkshorts.5eb08899fa4b03373502.JPG",
     "static/media/ceosuedeshorts.JPG": "/road-runner-clothing/static/media/ceosuedeshorts.5eb08899fa4b03373502.JPG",
@@ -27,11 +27,11 @@
     "static/media/rrlogo.JPG": "/road-runner-clothing/static/media/rrlogo.0601d09fb0d7dd4f3755.JPG",
     "static/media/product-placeholder.svg": "/road-runner-clothing/static/media/product-placeholder.6c06d20375d5ce4a848d4b4f3cb9e284.svg",
     "index.html": "/road-runner-clothing/index.html",
-    "main.d5d7fb70.css.map": "/road-runner-clothing/static/css/main.d5d7fb70.css.map",
-    "main.c53f0e71.js.map": "/road-runner-clothing/static/js/main.c53f0e71.js.map"
+    "main.77965d69.css.map": "/road-runner-clothing/static/css/main.77965d69.css.map",
+    "main.d1a98394.js.map": "/road-runner-clothing/static/js/main.d1a98394.js.map"
   },
   "entrypoints": [
-    "static/css/main.d5d7fb70.css",
-    "static/js/main.c53f0e71.js"
+    "static/css/main.77965d69.css",
+    "static/js/main.d1a98394.js"
   ]
 }
