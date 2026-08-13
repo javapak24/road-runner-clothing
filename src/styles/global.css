@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=UnifrakturCook:wght@700&display=swap");
 :root {
   --background: #0b0b0b;
   --surface: #101010;
@@ -5,7 +6,7 @@
   --text: #f4f1e9;
   --muted: #aaa79f;
   --accent: #f54b2e;
-  --border: rgba(255,255,255,0.1);
+  --border: rgba(255, 255, 255, 0.1);
 
   color: var(--text);
   background: var(--background);
@@ -26,8 +27,11 @@ body {
   min-width: 320px;
   min-height: 100vh;
   margin: 0;
-  background:
-    radial-gradient(circle at 85% 5%, rgba(245,75,46,0.1), transparent 25rem),
+  background: radial-gradient(
+      circle at 85% 5%,
+      rgba(245, 75, 46, 0.1),
+      transparent 25rem
+    ),
     var(--background);
 }
 
@@ -185,7 +189,7 @@ button {
   font-weight: 950;
   letter-spacing: -0.14em;
   line-height: 0.75;
-  -webkit-text-stroke: 1px rgba(255,255,255,0.16);
+  -webkit-text-stroke: 1px rgba(255, 255, 255, 0.16);
 }
 
 .about-page__content {
@@ -215,7 +219,7 @@ button {
   grid-template-columns: repeat(2, 1fr);
   gap: 1px;
   margin-top: 2rem;
-  background: rgba(9,9,9,0.25);
+  background: rgba(9, 9, 9, 0.25);
 }
 
 .contact-grid a {
