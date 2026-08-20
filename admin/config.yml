@@ -1,0 +1,66 @@
+backend:
+  name: git-gateway
+  branch: main
+
+media_folder: "public/images/products"
+public_folder: "/images/products"
+
+collections:
+  - name: "products"
+    label: "Products"
+    files:
+      - name: "product-list"
+        label: "Product List"
+        file: "src/data/products.json"
+
+        fields:
+          - label: "Products"
+            name: "products"
+            widget: "list"
+
+            fields:
+              - label: "Product ID"
+                name: "id"
+                widget: "string"
+
+              - label: "Product Name"
+                name: "name"
+                widget: "string"
+
+              - label: "Category"
+                name: "category"
+                widget: "string"
+
+              - label: "Color"
+                name: "color"
+                widget: "string"
+
+              - label: "Price"
+                name: "price"
+                widget: "number"
+                value_type: "float"
+
+              - label: "Sizes"
+                name: "sizes"
+                widget: "list"
+
+              - label: "Product Image"
+                name: "image"
+                widget: "image"
+
+              - label: "Featured"
+                name: "featured"
+                widget: "boolean"
+                default: false
+
+              - label: "Status"
+                name: "status"
+                widget: "select"
+                options:
+                  - "Available"
+                  - "Coming Soon"
+                  - "Sold Out"
+
+              - label: "Description"
+                name: "description"
+                widget: "text"
