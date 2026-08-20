@@ -32,7 +32,7 @@
       "price": 60,
       "sizes": ["S", "M", "L", "XL", "2XL"],
       "image": "/images/products/ceosuedeshorts.JPG",
-      "featured": false,
+      "featured": true,
       "status": "Available",
       "description": "High Quality Shorts for work, travel, and everyday wear."
     },
@@ -80,7 +80,7 @@
       "price": 60,
       "sizes": ["S", "M", "L", "XL", "2XL"],
       "image": "/images/products/nativequeen.JPG",
-      "featured": false,
+      "featured": true,
       "status": "Available",
       "description": "High Quality Shirt for work, travel, and everyday wear."
     },
