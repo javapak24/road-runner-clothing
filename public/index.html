@@ -10,6 +10,18 @@
     <meta name="theme-color" content="#0b0b0b" />
     <title>Road Runner Clothing</title>
   </head>
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  <script>
+    if (window.netlifyIdentity) {
+      window.netlifyIdentity.on("init", (user) => {
+        if (!user) {
+          window.netlifyIdentity.on("login", () => {
+            document.location.href = "/admin/";
+          });
+        }
+      });
+    }
+  </script>
   <body>
     <noscript>You need JavaScript enabled to view this website.</noscript>
     <div id="root"></div>
