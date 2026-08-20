@@ -19,7 +19,7 @@ function Home() {
           </Link>
         </div>
 
-        <ProductGrid limit={3} />
+        <ProductGrid featuredOnly limit={3} />
       </section>
 
       <section className="statement">
