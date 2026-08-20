@@ -1,0 +1,160 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "ICEMAN Shirt",
+      "category": "Shirts",
+      "color": "Black/White",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/blackhandsshirt.JPG",
+      "featured": true,
+      "status": "Available",
+      "description": "High Quality Shirt for work, travel, and everyday wear."
+    },
+    {
+      "id": 2,
+      "name": "Medicine Wheel Suede Shorts",
+      "category": "Shorts",
+      "color": "Black",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/medicinewheelsuedeshorts.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 3,
+      "name": "CEO Suede Shorts",
+      "category": "Shorts",
+      "color": "Black",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/ceosuedeshorts.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 4,
+      "name": "Red Tribal Shorts",
+      "category": "Shorts",
+      "color": "Red",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/redonblackshorts.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 5,
+      "name": "Pink Tribal Shorts",
+      "category": "Shorts",
+      "color": "Pink",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/pinkonblackshorts.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 6,
+      "name": "Tan Tribal Shorts",
+      "category": "Shorts",
+      "color": "Tan",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/tanonblackshorts.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 7,
+      "name": "Native Queen Shirt",
+      "category": "Shirts",
+      "color": "White/Red",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/nativequeen.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shirt for work, travel, and everyday wear."
+    },
+    {
+      "id": 8,
+      "name": "Cape Verde Shorts 1",
+      "category": "Shorts",
+      "color": "Blue/White",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/cvshortsblue1.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 9,
+      "name": "Cape Verde Shorts 2",
+      "category": "Shorts",
+      "color": "White/Blue",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/cvshortsblue2.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    },
+    {
+      "id": 10,
+      "name": "Tribal Chief Shirt",
+      "category": "Shirts",
+      "color": "Black",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/tribalchief.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shirt for work, travel, and everyday wear."
+    },
+    {
+      "id": 11,
+      "name": "Cape Verde Shirt",
+      "category": "Shirts",
+      "color": "White/Blue",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/cvshirt.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shirt for work, travel, and everyday wear."
+    },
+    {
+      "id": 12,
+      "name": "GTA Shirt",
+      "category": "Shirts",
+      "color": "Black",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/gtashirt.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shirt for work, travel, and everyday wear."
+    },
+    {
+      "id": 13,
+      "name": "$hpee Block Shorts",
+      "category": "Shorts",
+      "color": "Black",
+      "price": 60,
+      "sizes": ["S", "M", "L", "XL", "2XL"],
+      "image": "/images/products/shpeeblockshorts.JPG",
+      "featured": false,
+      "status": "Available",
+      "description": "High Quality Shorts for work, travel, and everyday wear."
+    }
+  ]
+}

@@ -10,9 +10,9 @@ function Contact() {
         <p>Payment Types</p>
 
         <div className="contact-grid">
-          <a href="mailto:orders@example.com">
+          <a href="mailto:delfino.gonsalves@gmail.com">
             <span>Email</span>
-            orders@example.com
+            delfino.gonsalves@gmail.com
           </a>
 
           <a
