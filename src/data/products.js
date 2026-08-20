@@ -1,13 +1,8 @@
-import placeholderImage from '../assets/product-placeholder.svg';
-import blackshorts from '../assets/blackshorts.JPG';
-import blacksilkshorts from '../assets/blacksilkshorts.JPG';
 import cvshortsblue1 from '../assets/cvshortsblue1.JPG';
 import cvshortsblue2 from '../assets/cvshortsblue2.JPG';
-import indianshirt from '../assets/indianshirt.JPG';
-import pinkonblackshorts from '../assets/pinkonblackshorts.JPG';
 import redonblackshorts from '../assets/redonblackshorts.JPG';
 import tanonblackshorts from '../assets/tanonblackshorts.JPG';
-import whiteredshirt from '../assets/whiteredshirt.JPG';
+import pinkonblackshorts from '../assets/pinkonblackshorts.JPG';
 import blackhandsshirt from '../assets/blackhandsshirt.JPG';
 import ceoshorts from '../assets/ceosuedeshorts.JPG';
 import cvshirt from '../assets/cvshirt.JPG';
@@ -16,11 +11,15 @@ import medicinewheelshorts from '../assets/medicinewheelsuedeshorts.JPG';
 import nativequeen from '../assets/nativequeen.JPG';
 import shpeeblockshorts from '../assets/shpeeblockshorts.JPG';
 import tribalchief from '../assets/tribalchief.JPG';
-
-import rrblocklogo from '../assets/rrblocklogo.JPG';
-import rrcarshirt from '../assets/rrcarshirt.JPG';
-import rrsilkshorts from '../assets/rrsilkshorts.JPG';
-import rrlogo from '../assets/rrlogo.JPG';
+// import whiteredshirt from '../assets/whiteredshirt.JPG';
+// import rrblocklogo from '../assets/rrblocklogo.JPG';
+// import rrcarshirt from '../assets/rrcarshirt.JPG';
+// import rrsilkshorts from '../assets/rrsilkshorts.JPG';
+// import rrlogo from '../assets/rrlogo.JPG';
+// import indianshirt from '../assets/indianshirt.JPG';
+// import placeholderImage from '../assets/product-placeholder.svg';
+// import blackshorts from '../assets/blackshorts.JPG';
+// import blacksilkshorts from '../assets/blacksilkshorts.JPG';
 
 /*
  * This array is the website's product database for now.
